@@ -50,4 +50,5 @@ rm -f /var/run/httpd.pid
 
 /usr/sbin/zabbix_server -c /etc/zabbix/zabbix_server.conf
 /usr/sbin/zabbix_agentd -c /etc/zabbix/zabbix_agentd.conf
+/usr/sbin/httpd -k stop
 /usr/sbin/httpd -DFOREGROUND
